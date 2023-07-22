@@ -1,0 +1,41 @@
+.container{
+    width: 100vh;
+    height: 100vh;
+    margin: 2rem auto;
+
+}
+.contenedor{
+    width: 570px;
+    height: 300px;
+    position: relative;
+    border: 3px solid #fbfdfe;
+    margin: 3rem auto;
+    background-color: black;
+}
+.bloque{
+    height: 20px;
+    width: 100px;
+    background-color: rgb(37, 215, 149);
+    position: absolute;
+    border-radius: 7px;
+}
+.usuario{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    border-radius: 7px ;
+}
+.bola{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 10px ;
+    background-color: rgb(211, 177, 243);
+}
+body{
+    background-color: black;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 5px red
+}
